@@ -15,7 +15,7 @@ credentials-file: /home/tu-usuario/.cloudflared/<tunnel-id>.json
 
 ingress:
   - hostname: tudominio.com
-    service: http://localhost:8080
+    service: http://localhost:5678
   - service: http_status:404
 
 
