@@ -1,6 +1,7 @@
 # Comandos usados para gestionar el túnel:
 # Instalar cloudflared: wget -O cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
 # Darle permisos de ejecución: chmod +x cloudflared
+# Moverlo a una ubicación en el PATH: sudo mv cloudflared /usr/local/bin/
 # Autenticar tu cuenta de Cloudflare: cloudflared login
 # Crear un nuevo túnel: cloudflared tunnel create <tunnel-name>
 
