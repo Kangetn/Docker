@@ -21,3 +21,4 @@ ingress:
 # Ejecutar en background con nohup (no se cierra al cerrar terminal) --> nohup cloudflared tunnel run mi-tunnel > /dev/null 2>&1 &
 # Iniciar el túnel: cloudflared tunnel run <tunnel-id-or-name>
 # Listar túneles: cloudflared tunnel list
+#.cfargotunnel.com
